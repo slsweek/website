@@ -1,13 +1,13 @@
 <p align="center">
   <h2 align="center">
-    SpaceX SSR
+    Sls Week Website
   </h2>
   <p align="center">
-    My demo app for <a href="https://www.youtube.com/channel/UCgRzOTVWlyshyIgmxtbYgaQ">Azure Brazil Community</a>
+    Badass website
   </p>
 </p>
 
-![screenshot](/screen.png)
+<!-- ![screenshot](/screen.png) -->
 
 ## Build Setup
 
