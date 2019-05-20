@@ -1,0 +1,83 @@
+<template>
+  <div class="organizers">
+    <GridContainer :styles="{ marginTop: '50px' }" direction="column" alignY="center">
+      <StyledTitle text="Organizers" />
+      <GridContainer
+        :styles="{
+          margin: '80px auto'
+        }"
+        :direction="$mq({ maxWidth: '880px' }) ? 'column': 'row'"
+        alignX="center" alignY="center">
+        <GridContainer
+          :styles="{
+            maxWidth: '450px',
+            marginTop: $mq({ maxWidth: '880px' }) ? '30px' : '0',
+          }"
+          direction="column"
+          alignY="center"
+          v-for="(organizer, index) in organizers"
+          :key="index">
+          <img class="organizers-image" :src="organizer.image" :alt="`Foto de ${organizer.name}`">
+          <h3 class="organizers-title">{{ organizer.name }}</h3>
+          <p class="organizers-desc">{{ organizer.description }}</p>
+        </GridContainer>
+      </GridContainer>
+    </GridContainer>
+  </div>
+</template>
+
+<script>
+import GridContainer from '@/components/Functional/GridContainer';
+import StyledTitle from '@/components/Functional/StyledTitle';
+
+export default {
+  name: 'OrganizersSection',
+  components: { GridContainer, StyledTitle },
+  data: () => ({
+    organizers: [
+      {
+        name: 'Igor Halfeld',
+        image: 'https://avatars3.githubusercontent.com/u/9022134?s=400&v=4',
+        description: 'Microsoft MVP, Engineering Lead at @NOALVO, Organizer at @vuejssummit, @vuejssp, @jssp and @nodebr',
+      },
+      {
+        name: 'Lucas Santos',
+        image: 'https://media.licdn.com/dms/image/C4D03AQFqW38XwT7-7A/profile-displayphoto-shrink_800_800/0?e=1564012800&v=beta&t=D6m4uY2-SlwWDxK36kuTEIhFnqCsEEM-O8DkI2CxCDE',
+        description: 'Microsoft MVP, Speaker, Software Architect, Organizer at @nodebr.',
+      },
+    ],
+  }),
+};
+</script>
+
+<style lang="scss" scoped>
+.organizers {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+
+  &-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 7px solid rgb(204, 165, 30);
+  }
+
+  &-title {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Heebo;
+    font-weight: 700;
+    font-size: 25px;
+    color: #444;
+  }
+
+  &-desc {
+    line-height: 140%;
+    text-align: center;
+    font-family: Heebo;
+    font-weight: 300;
+    color: #555;
+  }
+}
+</style>
