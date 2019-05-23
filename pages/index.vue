@@ -2,6 +2,7 @@
   <GridContainer direction="column" alignX="center" alignY="center">
     <Banner />
     <OrganizersSection />
+    <SpeakersSection />
     <Footer />
   </GridContainer>
 </template>
@@ -10,6 +11,7 @@
 import Banner from '@/components/Banner';
 import Footer from '@/components/Footer';
 import OrganizersSection from '@/components/OrganizersSection';
+import SpeakersSection from '@/components/SpeakersSection';
 import GridContainer from '@/components/Functional/GridContainer';
 
 export default {
@@ -19,6 +21,7 @@ export default {
     Footer,
     GridContainer,
     OrganizersSection,
+    SpeakersSection,
   },
 }
 </script>

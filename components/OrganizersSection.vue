@@ -1,7 +1,7 @@
 <template>
   <div class="organizers">
     <GridContainer :styles="{ marginTop: '50px' }" direction="column" alignY="center">
-      <StyledTitle text="Organizers" />
+      <StyledTitle text="Organizadores" />
       <GridContainer
         :styles="{
           margin: '80px auto'
@@ -29,23 +29,13 @@
 <script>
 import GridContainer from '@/components/Functional/GridContainer';
 import StyledTitle from '@/components/Functional/StyledTitle';
+import organizers from '@/content/organizers';
 
 export default {
   name: 'OrganizersSection',
   components: { GridContainer, StyledTitle },
   data: () => ({
-    organizers: [
-      {
-        name: 'Igor Halfeld',
-        image: 'https://avatars3.githubusercontent.com/u/9022134?s=400&v=4',
-        description: 'Microsoft MVP, Engineering Lead at @NOALVO, Organizer at @vuejssummit, @vuejssp, @jssp and @nodebr',
-      },
-      {
-        name: 'Lucas Santos',
-        image: 'https://media.licdn.com/dms/image/C4D03AQFqW38XwT7-7A/profile-displayphoto-shrink_800_800/0?e=1564012800&v=beta&t=D6m4uY2-SlwWDxK36kuTEIhFnqCsEEM-O8DkI2CxCDE',
-        description: 'Microsoft MVP, Speaker, Software Architect, Organizer at @nodebr.',
-      },
-    ],
+    organizers,
   }),
 };
 </script>

@@ -8,17 +8,9 @@
       alignX="center"
       alignY="center">
       <span class="banner-overlay" />
-      <img
-        v-if="$mq({ maxWidth: '880px' })"
-        class="banner-logo"
-        src="/serverless-logo.png" />
-      <img
-        v-else
-        class="banner-logo"
-        :style="{
-          width: '200px',
-        }"
-        src="/logo-without-bg.png" />
+
+      <BannerImageGlitch />
+
       <StyledSubTitle
         :styles="{
           zIndex: '4',
@@ -35,7 +27,7 @@
 
 <script>
 import GridContainer from '@/components/Functional/GridContainer';
-// import GlitchContainer from '@/components/Functional/GlitchContainer';
+import BannerImageGlitch from '@/components/BannerImageGlitch';
 import StyledSubTitle from '@/components/Functional/StyledSubTitle';
 
 export default {
@@ -43,7 +35,7 @@ export default {
   components: {
     GridContainer,
     StyledSubTitle,
-    // GlitchContainer,
+    BannerImageGlitch,
   },
 };
 </script>
@@ -71,11 +63,6 @@ export default {
       rgba(0, 0, 0, 0.1),
       rgba(0, 0, 0, 0.4)
     );
-  }
-
-  &-logo {
-    width: 800px;
-    z-index: 4;
   }
 }
 </style>
