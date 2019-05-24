@@ -1,5 +1,5 @@
 <template>
-  <div v-if="!$mq({ maxWidth: '880px' })" class="glitch" :style="{ ...styles }">
+  <div v-if="!maxWidth880" class="glitch" :style="{ ...styles }">
     <img class="glitch-image" src="/serverless-logo.png" />
     <img class="glitch-image" src="/logo-inverted.png" />
     <img class="glitch-image" src="/logo-yellow.png" />
@@ -22,6 +22,25 @@
 export default {
   name: 'BannerImageGlitch',
   props: ['styles'],
+  data: () => ({
+    width: 1000,
+    maxWidth880: false,
+  }),
+  watch: {
+    width() {
+      this.maxWidth880 = this.width < 880;
+    }
+  },
+  mounted() {
+    window.addEventListener('resize', () => {
+      this.width = window.innerWidth;
+      console.log('width', this.width);
+    });
+    this.width = window.innerWidth;
+  },
+  beforeDestroy() {
+    window.removeEventListener('resize');
+  }
 };
 </script>
 

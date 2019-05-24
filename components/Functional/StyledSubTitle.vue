@@ -6,6 +6,7 @@
 
 <style lang="scss" scoped>
 .subtitle {
+  text-align: center;
   font-family: Heebo;
   font-size: 1.4rem;
   color: #444;

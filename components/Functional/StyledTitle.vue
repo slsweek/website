@@ -6,6 +6,7 @@
 
 <style lang="scss" scoped>
 .title {
+  text-align: center;
   font-family: Bangers;
   font-size: 3.5rem;
   color: rgb(204, 165, 30);
