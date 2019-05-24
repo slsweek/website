@@ -1,5 +1,7 @@
 <template functional>
-  <button class="button" :style="{ ...props.styles }">{{ props.text }}</button>
+  <button
+    class="button"
+    :style="{ ...props.styles }" @click="props.clickFn">{{ props.text }}</button>
 </template>
 
 <style lang="scss" scoped>

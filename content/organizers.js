@@ -9,7 +9,7 @@ export default [
   },
   {
     name: 'Lucas Santos',
-    image: 'https://media.licdn.com/dms/image/C4D03AQFqW38XwT7-7A/profile-displayphoto-shrink_800_800/0?e=1564012800&v=beta&t=D6m4uY2-SlwWDxK36kuTEIhFnqCsEEM-O8DkI2CxCDE',
+    image: 'https://i.imgur.com/w7iw81E.png',
     description: 'Microsoft MVP, Speaker, Lead Solutions Architect at Nextcode, Organizer at @abc_developers, @vuejssp, @trainingcentr, @jssp and @nodebr',
     twitter: '_staticvoid',
     github: 'khaosdoctor',

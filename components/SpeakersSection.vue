@@ -6,6 +6,7 @@
         Quer palestrar? mande sua palestra!
       </StyledSubTitle>
       <StyledButton
+        :clickFn="navigate"
         :styles="{
           marginTop: '20px',
         }"
@@ -23,6 +24,11 @@ import StyledSubTitle from '@/components/Functional/StyledSubTitle';
 export default {
   name: 'SpeakersSection',
   components: { GridContainer, StyledTitle, StyledButton, StyledSubTitle },
+  methods: {
+    navigate() {
+      window.open('https://forms.gle/1KGf3MLa6rhWXkoF6', '_blank');
+    },
+  },
 };
 </script>
 
