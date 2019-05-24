@@ -3,9 +3,15 @@
     <GridContainer direction="column" alignY="center">
       <StyledTitle>Doe para esse conteúdo</StyledTitle>
       <StyledSubTitle>
-        Todo dinheiro doado vai ser mandado para instituições carentes.
+        Todo dinheiro doado vai ser convertido para iniciativas como:
       </StyledSubTitle>
+
+      <GridContainer :styles="{ margin: '35px' }">
+        <img class="donation-images" src="/wmc.png" alt="logo womakescode">
+      </GridContainer>
+
       <StyledButton
+        :clickFn="navigate"
         :styles="{
           marginTop: '20px',
         }"
@@ -23,6 +29,11 @@ import StyledSubTitle from '@/components/Functional/StyledSubTitle';
 export default {
   name: 'DonationSection',
   components: { GridContainer, StyledTitle, StyledButton, StyledSubTitle },
+  methods: {
+    navigate() {
+      window.open('http://vaka.me/589408', '_blank');
+    },
+  },
 };
 </script>
 
@@ -31,5 +42,9 @@ export default {
   width: 100%;
   height: auto;
   padding: 40px;
+
+  &-images {
+    max-width: 300px;
+  }
 }
 </style>

@@ -9,6 +9,6 @@
   text-align: center;
   font-family: Bangers;
   font-size: 3.5rem;
-  color: rgb(204, 165, 30);
+  color: #f9ca24;
 }
 </style>

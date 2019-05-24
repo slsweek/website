@@ -58,7 +58,7 @@ export default {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 7px solid rgb(204, 165, 30);
+    border: 7px solid #f9ca24;
   }
 
   &-title {

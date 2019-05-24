@@ -1,13 +1,17 @@
 <p align="center">
-  <h2 align="center">
-    Sls Week Website
-  </h2>
+  <img src="static/logo-without-bg.png" width="100px" />
+  <h3 align="center">
+    Serverless Week
+  </h3>
   <p align="center">
-    Badass website
+    Uma semana inteira com conteúdo sobre arquitetura serverless.
   </p>
 </p>
 
-<!-- ![screenshot](/screen.png) -->
+<p align="center">
+  <img src="static/banner-readme.png" style="width: 100%; height: auto;">
+</p>
+
 
 ## Build Setup
 

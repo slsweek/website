@@ -7,7 +7,7 @@
     }"
     alignX="center"
     alignY="center">
-    <p class="copy">Feito com ❤️para a comunidade.</p>
+    <p class="copy">Feito com ❤️ para a comunidade.</p>
   </GridContainer>
 </template>
 

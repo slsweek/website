@@ -6,7 +6,7 @@
 
 <style lang="scss" scoped>
 .button {
-  background-color: rgb(204, 165, 30);
+  background-color: #f9ca24;
   border: none;
   border-radius: 8px;
   font-family: Heebo;
@@ -19,7 +19,7 @@
   transition: all 300ms ease-in-out;
 
   &:hover {
-    color: rgb(204, 165, 30);
+    color: #f9ca24;
     background-color: white;
   }
 }
