@@ -8,7 +8,7 @@
 
       <GridContainer
         :styles="{ margin: '35px' }"
-        direction="row"
+        :direction="$mq({ maxWidth: '880px' }) ? 'column' : 'row'"
         alignX="space-between"
         alignY="center">
         <img class="donation-images" src="/wmc.png" alt="logo womakescode">
@@ -52,6 +52,10 @@ export default {
   &-images {
     max-width: 180px;
     margin: 0 20px;
+
+    @media screen and (max-width: 880px) {
+      margin: 20px 0;
+    }
   }
 }
 </style>
