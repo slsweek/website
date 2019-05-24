@@ -33,7 +33,6 @@ export default {
   */
   plugins: [
     { src: '~/plugins/vueMediaQueries', srr: false },
-    { src: '~/plugins/glitch', srr: false },
   ],
 
   /*

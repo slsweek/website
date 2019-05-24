@@ -1,15 +1,15 @@
 <template>
-  <div class="speakers">
+  <div class="donation">
     <GridContainer direction="column" alignY="center">
-      <StyledTitle :styles="{ color: 'white' }">Palestrantes</StyledTitle>
-      <StyledSubTitle :styles="{ color: 'white' }">
-        Quer palestrar? mande sua palestra!
+      <StyledTitle>Doe para esse conteúdo</StyledTitle>
+      <StyledSubTitle>
+        Todo dinheiro doado vai ser mandado para instituições carentes.
       </StyledSubTitle>
       <StyledButton
         :styles="{
           marginTop: '20px',
         }"
-        text="🗣 Mande sua palestra!" />
+        text="❤ Doe!" />
     </GridContainer>
   </div>
 </template>
@@ -21,16 +21,15 @@ import StyledTitle from '@/components/Functional/StyledTitle';
 import StyledSubTitle from '@/components/Functional/StyledSubTitle';
 
 export default {
-  name: 'SpeakersSection',
+  name: 'DonationSection',
   components: { GridContainer, StyledTitle, StyledButton, StyledSubTitle },
 };
 </script>
 
 <style lang="scss" scoped>
-.speakers {
+.donation {
   width: 100%;
   height: auto;
   padding: 40px;
-  background-color: #008A7E;
 }
 </style>

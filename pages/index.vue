@@ -3,6 +3,7 @@
     <Banner />
     <OrganizersSection />
     <SpeakersSection />
+    <DonationSection />
     <Footer />
   </GridContainer>
 </template>
@@ -12,6 +13,7 @@ import Banner from '@/components/Banner';
 import Footer from '@/components/Footer';
 import OrganizersSection from '@/components/OrganizersSection';
 import SpeakersSection from '@/components/SpeakersSection';
+import DonationSection from '@/components/DonationSection';
 import GridContainer from '@/components/Functional/GridContainer';
 
 export default {
@@ -22,6 +24,7 @@ export default {
     GridContainer,
     OrganizersSection,
     SpeakersSection,
+    DonationSection,
   },
 }
 </script>

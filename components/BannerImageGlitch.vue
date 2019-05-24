@@ -1,17 +1,35 @@
-<template functional>
-  <div class="glitch" :style="{ ...props.styles }">
+<template>
+  <div v-if="!$mq({ maxWidth: '880px' })" class="glitch" :style="{ ...styles }">
     <img class="glitch-image" src="/serverless-logo.png" />
     <img class="glitch-image" src="/logo-inverted.png" />
-    <img class="glitch-image" src="/logo-cyan.png" />
+    <img class="glitch-image" src="/logo-yellow.png" />
+  </div>
+  <div
+    v-else
+    class="glitch"
+    :style="{
+      ...styles,
+      width: '294px',
+      height: '250px',
+    }">
+    <img class="glitch-image" src="/logo-without-bg.png" />
+    <img class="glitch-image" src="/logo-m-white.png" />
+    <img class="glitch-image" src="/logo-m-yellow.png" />
   </div>
 </template>
+
+<script>
+export default {
+  name: 'BannerImageGlitch',
+  props: ['styles'],
+};
+</script>
 
 <style lang="scss" scoped>
 @mixin imageGlitch($name, $intensity, $width, $height, $top, $left) {
 
   $steps: $intensity;
 
-  // Ensure the @keyframes are generated at the root level
   @at-root {
     // We need two different ones
     @for $i from 1 through 2 {
@@ -50,6 +68,6 @@
   position: relative;
   width: 800px;
   height: 180px;
-  @include imageGlitch("glitch", 20, 800, 200, 0, 0);
+  @include imageGlitch("glitch", 30, 800, 200, 0, 0);
 }
 </style>

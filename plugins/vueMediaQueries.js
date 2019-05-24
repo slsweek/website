@@ -18,4 +18,4 @@ const VueMediaQuery = Vue => {
   });
 };
 
-Vue.use(VueMediaQuery)
+Vue.use(VueMediaQuery);

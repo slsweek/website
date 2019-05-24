@@ -1,5 +1,7 @@
 <template functional>
-  <p class="subtitle" :style="props.styles">{{ props.text }}</p>
+  <p class="subtitle" :style="props.styles">
+    <slot />
+  </p>
 </template>
 
 <style lang="scss" scoped>

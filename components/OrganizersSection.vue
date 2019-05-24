@@ -1,7 +1,7 @@
 <template>
   <div class="organizers">
     <GridContainer :styles="{ marginTop: '50px' }" direction="column" alignY="center">
-      <StyledTitle text="Organizadores" />
+      <StyledTitle>Organizadores</StyledTitle>
       <GridContainer
         :styles="{
           margin: '80px auto'
@@ -20,6 +20,13 @@
           <img class="organizers-image" :src="organizer.image" :alt="`Foto de ${organizer.name}`">
           <h3 class="organizers-title">{{ organizer.name }}</h3>
           <p class="organizers-desc">{{ organizer.description }}</p>
+          <SocialGrid
+            :links="{
+              twitter: organizer.twitter,
+              linkedin: organizer.linkedin,
+              github: organizer.github,
+            }"
+            :styles="{ marginTop: '20px' }"/>
         </GridContainer>
       </GridContainer>
     </GridContainer>
@@ -29,11 +36,12 @@
 <script>
 import GridContainer from '@/components/Functional/GridContainer';
 import StyledTitle from '@/components/Functional/StyledTitle';
+import SocialGrid from '@/components/Functional/SocialGrid';
 import organizers from '@/content/organizers';
 
 export default {
   name: 'OrganizersSection',
-  components: { GridContainer, StyledTitle },
+  components: { GridContainer, StyledTitle, SocialGrid },
   data: () => ({
     organizers,
   }),

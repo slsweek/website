@@ -16,11 +16,32 @@
           zIndex: '4',
           color: '#fff',
           textAlign: 'center',
-          fontSize: $mq({ maxWidth: '880px' }) ? '20px' : '30px',
-          marginTop: $mq({ maxWidth: '880px' }) ? '-5px' : '-20px',
+          fontSize: '30px',
+          marginTop: '-20px',
           marginBottom: '40px',
-        }"
-        text="Uma semana inteira sobre arquitetura serverless" />
+        }">
+        Uma semana inteira sobre
+        <span
+          :style="{
+            fontSize: '30px',
+            fontWeight: 700,
+          }">
+          arquitetura serverless.
+        </span>
+      </StyledSubTitle>
+
+      <StyledSubTitle
+        :styles="{
+          zIndex: '4',
+          color: '#fff',
+          textAlign: 'center',
+          fontSize: '25px',
+          marginTop: '-40px',
+          marginBottom: '40px',
+        }">
+        22 à 26 de julho.
+      </StyledSubTitle>
+
     </GridContainer>
   </div>
 </template>
@@ -46,11 +67,18 @@ export default {
   height: 100vh;
 }
 
+@keyframes scales {
+  to {
+    background-position: bottom;
+  }
+}
+
 .banner {
   @extend %max-width;
   background-image: url('/banner.jpg');
   background-size: cover;
   background-position: top top;
+  animation: scales 60s ease-in infinite alternate;
 
   &-overlay {
     @extend %max-width;
