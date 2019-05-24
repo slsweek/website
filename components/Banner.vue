@@ -39,7 +39,10 @@
           marginTop: '-40px',
           marginBottom: '40px',
         }">
-        22 à 26 de julho.
+        <span :style="{ fontSize: '25px', fontWeight: 700 }">
+          Evento online
+        </span>
+        - 22 à 26 de julho.
       </StyledSubTitle>
 
     </GridContainer>
