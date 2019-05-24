@@ -6,8 +6,14 @@
         Todo dinheiro doado vai ser convertido para iniciativas como:
       </StyledSubTitle>
 
-      <GridContainer :styles="{ margin: '35px' }">
+      <GridContainer
+        :styles="{ margin: '35px' }"
+        direction="row"
+        alignX="space-between"
+        alignY="center">
         <img class="donation-images" src="/wmc.png" alt="logo womakescode">
+        <img class="donation-images" src="/dp.png" alt="logo desprograme">
+        <img class="donation-images" src="/wds.png" alt="logo desprograme">
       </GridContainer>
 
       <StyledButton
@@ -44,7 +50,8 @@ export default {
   padding: 40px;
 
   &-images {
-    max-width: 300px;
+    max-width: 180px;
+    margin: 0 20px;
   }
 }
 </style>
