@@ -19,7 +19,7 @@ export default {
       { property: 'og:description', content: 'Uma semana inteira sobre arquitetura serverless.' },
       { property: 'og:image', content: '/banner.png' },
       { property: 'twitter:card', content: 'summary_large_image' },
-      { property: 'twitter:site', content: '@vuejssummit' },
+      { property: 'twitter:site', content: 'https://slsweek.netlify.com/' },
       { property: 'twitter:image', content: '/banner.png' },
       { property: 'twitter:title', content: 'Serverless Week' },
       { property: 'twitter:description', content: 'Uma semana inteira sobre arquitetura serverless.' },
