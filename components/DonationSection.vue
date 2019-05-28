@@ -11,13 +11,13 @@
         :direction="$mq({ maxWidth: '880px' }) ? 'column' : 'row'"
         alignX="space-between"
         alignY="center">
-        <img class="donation-images" src="/wmc.png" alt="logo womakescode">
-        <img class="donation-images" src="/dp.png" alt="logo desprograme">
-        <img class="donation-images" src="/wds.png" alt="logo desprograme">
+        <img @click="navigate('http://womakerscode.org/')()" class="donation-images" src="/wmc.png" alt="logo womakescode">
+        <img @click="navigate('https://desprograme.com.br/pt/')" class="donation-images" src="/dp.png" alt="logo desprograme">
+        <img @click="navigate('http://womendevsummit.com/')" class="donation-images" src="/wds.png" alt="logo desprograme">
       </GridContainer>
 
       <StyledButton
-        :clickFn="navigate"
+        :clickFn="() => navigate('http://vaka.me/589408')"
         :styles="{
           marginTop: '20px',
         }"
@@ -36,8 +36,8 @@ export default {
   name: 'DonationSection',
   components: { GridContainer, StyledTitle, StyledButton, StyledSubTitle },
   methods: {
-    navigate() {
-      window.open('http://vaka.me/589408', '_blank');
+    navigate(link) {
+      return window.open(link, '_blank');
     },
   },
 };
@@ -52,6 +52,8 @@ export default {
   &-images {
     max-width: 180px;
     margin: 0 20px;
+    cursor: pointer;
+    z-index: 9999;
 
     @media screen and (max-width: 880px) {
       margin: 20px 0;

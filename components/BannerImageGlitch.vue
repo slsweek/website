@@ -34,7 +34,6 @@ export default {
   mounted() {
     window.addEventListener('resize', () => {
       this.width = window.innerWidth;
-      console.log('width', this.width);
     });
     this.width = window.innerWidth;
   },
