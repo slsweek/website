@@ -3,14 +3,11 @@
     <GridContainer direction="column" alignY="center">
       <StyledTitle :styles="{ color: 'white' }">Palestrantes</StyledTitle>
       <StyledSubTitle :styles="{ color: 'white' }">
-        Quer palestrar? mande sua palestra!
+        Quer palestrar? Manda pra gente sua ideia!
       </StyledSubTitle>
-      <StyledButton
-        :clickFn="navigate"
-        :styles="{
+      <StyledButton :clickFn="navigate" :styles="{
           marginTop: '20px',
-        }"
-        text="🗣 Mande sua palestra!" />
+        }" text="🗣 Mande sua palestra!" />
     </GridContainer>
   </div>
 </template>
@@ -37,6 +34,6 @@ export default {
   width: 100%;
   height: auto;
   padding: 40px;
-  background-color: #008A7E;
+  background-color: #008a7e;
 }
 </style>

@@ -1,6 +1,7 @@
 <template>
   <GridContainer direction="column" alignX="center" alignY="center">
     <Banner />
+    <InfoSection />
     <OrganizersSection />
     <SpeakersSection />
     <DonationSection />
@@ -15,6 +16,7 @@ import OrganizersSection from '@/components/OrganizersSection';
 import SpeakersSection from '@/components/SpeakersSection';
 import DonationSection from '@/components/DonationSection';
 import GridContainer from '@/components/Functional/GridContainer';
+import InfoSection from '@/components/InfoSection';
 
 export default {
   name: 'Index',
@@ -22,6 +24,7 @@ export default {
     Banner,
     Footer,
     GridContainer,
+    InfoSection,
     OrganizersSection,
     SpeakersSection,
     DonationSection,
