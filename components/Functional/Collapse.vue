@@ -6,7 +6,7 @@
     <transition name="expand">
       <div
         v-if="isOpen"
-        class="card bg-light border-0 p-3">
+        class="bg-light border-0 p-3">
         <slot name="content" />
       </div>
     </transition>

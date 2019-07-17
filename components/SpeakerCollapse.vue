@@ -16,7 +16,7 @@
         <div class="speaker-photo" :style="{ backgroundImage: `url(${speaker.author.photo})` }" />
         <GridContainer
           :styles="{
-            maxWidth: $mq({ maxWidth: '810px' }) ? '350px' : '650px',
+            width: $mq({ maxWidth: '810px' }) ? '350px' : '650px',
             marginLeft: '20px',
           }"
           direction="column">
@@ -65,7 +65,7 @@
         </GridContainer>
       </GridContainer>
     </div>
-    <div class="content" slot="content">
+    <div class="desc" slot="content">
       {{ speaker.description }}
     </div>
   </Collapse>
@@ -107,13 +107,24 @@ export default {
     max-width: 500px;
   }
 }
-.content {
+.desc {
   padding: 20px 30px;
+  height: auto;
   border-radius: 0px 0px 8px 8px;
   background-color: #fff;
   font-family: Heebo;
   color: #444;
   font-size: 1.4rem;
+  max-width: 800px;
+
+  @media all and (max-width: 810px) {
+    font-size: 1rem;
+    max-width: 500px;
+  }
+  @media all and (max-width: 530px) {
+    font-size: 1rem;
+    max-width: 400px;
+  }
 }
 
 .speaker-photo {
