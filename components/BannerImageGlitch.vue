@@ -66,7 +66,7 @@ export default {
     top: $top + px;
     left: $left + px;
     max-width: 800px;
-    z-index: 9999;
+    z-index: 6666;
   }
   &-image:nth-child(2),
   &-image:nth-child(3){

@@ -1,5 +1,6 @@
 <template>
   <GridContainer direction="column" alignX="center" alignY="center">
+    <ModalCheckout />
     <Banner />
     <InfoSection />
     <OrganizersSection />
@@ -12,6 +13,7 @@
 <script>
 import Banner from '@/components/Banner';
 import Footer from '@/components/Footer';
+import ModalCheckout from '@/components/ModalCheckout';
 import OrganizersSection from '@/components/OrganizersSection';
 import SpeakersSection from '@/components/SpeakersSection';
 import DonationSection from '@/components/DonationSection';
@@ -28,6 +30,7 @@ export default {
     OrganizersSection,
     SpeakersSection,
     DonationSection,
+    ModalCheckout,
   },
 }
 </script>

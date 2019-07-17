@@ -53,7 +53,6 @@ export default {
     max-width: 180px;
     margin: 0 20px;
     cursor: pointer;
-    z-index: 9999;
 
     @media screen and (max-width: 880px) {
       margin: 20px 0;
