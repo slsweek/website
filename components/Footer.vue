@@ -5,9 +5,13 @@
       width: '100%',
       height: '80px',
     }"
+    direction="column"
     alignX="center"
     alignY="center">
     <p class="copy">Feito com ❤️ para a comunidade.</p>
+    <p class="copy">
+      <a href="https://vuejssummit.com/codeofconduct">código de conduta</a>
+    </p>
   </GridContainer>
 </template>
 
