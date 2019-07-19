@@ -206,9 +206,9 @@ export default [
   gustavoGondim2('22/07/2019 às 20h50'), // Usando o Funcpack para facilitar o carregamento de pacotes do Node
   jorgeMaia('22/07/2019 às 21h30'), // Azure Functions em projetos de Internet das Coisas
 
-  pokemonBr('23/07/2019 às 20h10'), // Function as a Service no OpenFaaS com Docker e PHP
-  lucasAnjos('23/07/2019 às 20h50'), // O que são Filas e como trabalhar com elas em Arquitetura Serverless
-  neriJJJr('23/07/2019 às 21h30'), // Usando serverless para processar +1.5 mi de pacotes
+  neriJJJr('23/07/2019 às 20h10'), // Usando serverless para processar +1.5 mi de pacotes
+  pokemonBr('23/07/2019 às 20h50'), // Function as a Service no OpenFaaS com Docker e PHP
+  lucasAnjos('23/07/2019 às 21h30'), // O que são Filas e como trabalhar com elas em Arquitetura Serverless
 
   angeloBelchior('24/07/2019 às 20h10'), // Real Time Application com CosmosDB, Azure SignalR e Azure Functions
   octavioFernands('24/07/2019 às 20h50'), // Case Kovi: Resolvendo concorrência com Javascript + Lambda/SQS/S3
@@ -217,7 +217,7 @@ export default [
   emmanuelBrandao('25/07/2019 às 20h10'), // DevOps em apps Serverless
   robsonSoares('25/07/2019 às 20h50'), // Escalando sua aplicação mundialmente com Cosmos DB
 
-  gustavoGondim3('26/07/2019 às 20h10'), // Azure Functions + Airtable: Um back-end sem banco de dados e sem uma única linha de código
+  glaciaLemos('26/07/2019 às 20h10'), // Criando API\'s Escaláveis com Node.js & Serverless
   renatoGroffe('26/07/2019 às 20h50'), // Desenvolvimento Serverless e Multiplaforma com .NET Core e Azure Functions
-  glaciaLemos('26/07/2019 às 21h30'), // Criando API\'s Escaláveis com Node.js & Serverless
+  gustavoGondim3('26/07/2019 às 21h30'), // Azure Functions + Airtable: Um back-end sem banco de dados e sem uma única linha de código
 ];
