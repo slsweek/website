@@ -188,8 +188,8 @@ const gustavoGondim3 = (when = '26/07/2019 às 20h50') => ({
 });
 
 const glaciaLemos = (when = '26/07/2019 às 20h50') => ({
-  title: 'Criando API\'s Escaláveis com Node.js & Serverless',
-  description: 'Node.Js é escalável. O Azure também é um serviço de nuvem escalável. E o que acha de usar os dois juntos e mais o Serveless?! Quais os benefícios de usarmos uma Arquitetura Serverless em aplicações Node.js integradas com Azure? Quais são os ganhos em usar essas tecnologias? Durante a palestra, estarei falando sobre como podemos definir uma arquitetura altamente escalável usando Node.js com Azure Functions baseado numa arquitetura Serverless. E claro que vai ter uma super demo em como podemos criar um Serverless Function App no Azure! :)',
+  title: 'Ganhe mais Produtividade Criando Projetos Serverless com Visual Studio Code & Node.js',
+  description: 'Muitos desenvolvedores tem escolhido o Visual Studio Code para desenvolver sua aplicações, visando automatizar tarefas diárias. Nessa palestra mostrarei algumas dicas muito importantes para potencializar o seu desenvolvimento no Visual Studio Code usando o Azure Functions de uma maneira simples e rápida. Haverá demos em como criar uma, em poucos minutos, um HTTP Trigger no Visual Studio Code e como você pode criar o seu primeiro Azure Functions no Azure & Vs Code e no final realizaremos um deploy dessa aplicação na nuvem!',
   type: TALK_TYPES.LIVE,
   when,
   author: {
