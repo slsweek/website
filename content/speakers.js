@@ -151,7 +151,7 @@ const robsonSoares= (when = '26/07/2019 às 20h50') => ({
 const gustavoGondim1 = (when = '26/07/2019 às 20h50') => ({
   title: 'Processamento assíncrono com Azure Functions e Service Bus',
   description: 'Nem sempre o HTTP Trigger te salvará! Essa é uma palestra básica sobre como implementar Azure Functions usando triggers de Service Bus, útil para processamento assíncrono.',
-  type: TALK_TYPES.LIVE,
+  type: TALK_TYPES.RECORDED,
   when,
   author: {
     photo: 'https://gustavogondim.carrd.co/assets/images/image01.jpg?v95194434091451',
@@ -164,7 +164,7 @@ const gustavoGondim1 = (when = '26/07/2019 às 20h50') => ({
 const gustavoGondim2 = (when = '26/07/2019 às 20h50') => ({
   title: 'Usando o Funcpack para facilitar o carregamento de pacotes do Node',
   description: 'Nem sempre o HTTP Trigger te salvará! Essa é uma palestra básica sobre como implementar Azure Functions usando triggers de Service Bus, útil para processamento assíncrono.',
-  type: TALK_TYPES.LIVE,
+  type: TALK_TYPES.RECORDED,
   when,
   author: {
     photo: 'https://gustavogondim.carrd.co/assets/images/image01.jpg?v95194434091451',
@@ -177,7 +177,7 @@ const gustavoGondim2 = (when = '26/07/2019 às 20h50') => ({
 const gustavoGondim3 = (when = '26/07/2019 às 20h50') => ({
   title: 'Azure Functions + Airtable: Um back-end sem banco de dados e sem uma única linha de código',
   description: 'Situações enxutas pedem soluções criativas! Nessa palestra você aprenderá como implementar um cadastro de formulário completo (CRUD), criando um back-end sem uma única linha de código usando Azure Functions Proxies e o Airtable.',
-  type: TALK_TYPES.LIVE,
+  type: TALK_TYPES.RECORDED,
   when,
   author: {
     photo: 'https://gustavogondim.carrd.co/assets/images/image01.jpg?v95194434091451',
@@ -200,6 +200,18 @@ const glaciaLemos = (when = '26/07/2019 às 20h50') => ({
   },
 });
 
+const jenniferDavis = (when = '26/07/2019 às 20h50') => ({
+  title: 'The Ops in the Serverless',
+  description: 'A function is deployed and alerts go off. When our intrepid site reliability engineer responds to the change in availability, she begins the task of debugging and implementing new tests to catch the issue in future deployments. While the nature and complexity of computing changes, the need for specialized operations engineering skills only increases. In this talk, we will examine the increased need for specialized Operations Engineering in the Age of Serverless. We’ll use the serverless platform to explore three critical areas of operational readiness of testing, monitoring, and debugging.',
+  type: TALK_TYPES.LIVE,
+  when,
+  author: {
+    photo: 'https://media.licdn.com/dms/image/C5603AQEybtfTDHOYkg/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=qRBOjzqZpijkO2lkAzTCzen9JJgmwizWWv0pgGyFS6E',
+    name: 'Jennifer Davis',
+    description: 'Jennifer Davis is the co-author of Effective DevOps and a senior cloud advocate at Microsoft. Previously, she was a principal site reliability engineer at RealSelf, developed cookbooks to simplify building and managing infrastructure at Chef, and built reliable service platforms at Yahoo. She is a core organizer of devopsdays and organizes the Silicon Valley event. She is the founder of CoffeeOps.',
+    site: 'https://www.linkedin.com/in/sigje'
+  },
+});
 
 export default [
   lucasTelles('22/07/2019 às 20h10'), // Azure functions do zero
@@ -216,8 +228,9 @@ export default [
 
   emmanuelBrandao('25/07/2019 às 20h10'), // DevOps em apps Serverless
   robsonSoares('25/07/2019 às 20h50'), // Escalando sua aplicação mundialmente com Cosmos DB
+  glaciaLemos('25/07/2019 às 21h30'), // Criando API\'s Escaláveis com Node.js & Serverless
 
-  glaciaLemos('26/07/2019 às 20h10'), // Criando API\'s Escaláveis com Node.js & Serverless
+  jenniferDavis('26/07/2019 às 20h10'), // Serverless ops
   renatoGroffe('26/07/2019 às 20h50'), // Desenvolvimento Serverless e Multiplaforma com .NET Core e Azure Functions
-  gustavoGondim3('26/07/2019 às 21h30'), // Azure Functions + Airtable: Um back-end sem banco de dados e sem uma única linha de código
+  gustavoGondim3('26/07/2019 às 21h30') // Azure Functions + Airtable: Um back-end sem banco de dados e sem uma única linha de código
 ];
