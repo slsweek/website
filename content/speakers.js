@@ -163,7 +163,7 @@ const gustavoGondim1 = (when = '26/07/2019 às 20h50') => ({
 
 const gustavoGondim2 = (when = '26/07/2019 às 20h50') => ({
   title: 'Usando o Funcpack para facilitar o carregamento de pacotes do Node',
-  description: 'Nem sempre o HTTP Trigger te salvará! Essa é uma palestra básica sobre como implementar Azure Functions usando triggers de Service Bus, útil para processamento assíncrono.',
+  description: 'Quem já implementou uma Azure Function com Node.js sabe o quanto o carregamento da função pode demorar à medida que sua `node_modules` cresce. Uma solução alternativa para isso é compilar todos os módulos usados pela função com o funcpack. Nessa palestra falaremos sobre vantagens e desvantagens dessa abordagem, como implementar e benchmarks comparativos (com/sem funcpack).',
   type: TALK_TYPES.RECORDED,
   when,
   author: {
