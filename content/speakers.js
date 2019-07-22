@@ -72,7 +72,7 @@ const jorgeMaia = (when = '26/07/2019 às 20h50') => ({
     name: 'Jorge Maia',
     description: 'Jorge é Cientista da Computação, há mais de 20 anos desenvolvendo software e hardware; trabalha ajudando empresas a conectar “coisas” e inovar com uso de inteligência artificial e computação em nuvem.  Premiado pela Microsoft como Most Valuable Professional na categoria Azure, semanalmente apresenta a coluna de tecnologia da rádio Transamerica Brasília, além de participar da cobertura de eventos nacionais e internacionais de tecnologia. Mantém também um canal de PodCast e um de vídeos sobre Internet das Coisas e Inovação, além de artigos e cursos sobre os temas em que trabalha. Viaja constantemente e atua contribuindo ativamente com a comunidade de tecnologia Brasileira e Norte Americana.',
     twitter: 'https://twitter.com/jorgemaia',
-    instagram: 'https://facebook.com/jorgemaiagram',
+    instagram: 'https://instagram.com/jorgemaiagram',
     linkedin: 'https://www.linkedin.com/in/jorgeasmaia',
   },
 });
@@ -100,7 +100,7 @@ const neriJJJr = (when = '26/07/2019 às 20h50') => ({
     name: 'Neri J. J. Jr',
     description: 'Full stack at EBANX, Serverless evangelist, Survivalism enthusiast.',
     linkedin: 'https://www.linkedin.com/in/nerijunior',
-    github: 'https://www.github.com/in/nerijunior',
+    github: 'https://www.github.com/nerijunior',
   },
 });
 
@@ -113,9 +113,9 @@ const emmanuelBrandao= (when = '26/07/2019 às 20h50') => ({
     photo: 'https://aboutme.imgix.net/background/users/e/g/o/egomesbrandao_1510939007_014.jpg',
     name: 'Emmanuel Brandão',
     description: 'Apoio na realização da transformação ágil fazendo a mudança para o mindset de DevOps em times de desenvolvimento de software. Sou Microsoft MVP na categoria Developer Technologies.',
-    twitter: 'https://www.twitter.com/in/egomesbrandao',
+    twitter: 'https://www.twitter.com/egomesbrandao',
     linkedin: 'https://www.linkedin.com/in/egomesbrandao',
-    github: 'https://www.github.com/in/egomesbrandao',
+    github: 'https://www.github.com/egomesbrandao',
   },
 });
 
@@ -128,9 +128,9 @@ const lucasTelles= (when = '26/07/2019 às 20h50') => ({
     photo: 'https://pbs.twimg.com/profile_images/1116526293733052418/kl7B0VSZ_400x400.jpg',
     name: 'Lucas Teles',
     description: 'Desenvolvedor fullstack na Lambda3, formado em ciência da computação e atuo como desenvolvedor a mais de 10 anos. Acredito no valor da qualidade e boas praticas e militante de programação funcional.',
-    twitter: 'https://www.twitter.com/in/lucasteles42',
+    twitter: 'https://www.twitter.com/lucasteles42',
     linkedin: 'https://www.linkedin.com/in/lteles',
-    github: 'https://www.github.com/in/lucasteles',
+    github: 'https://www.github.com/lucasteles',
   },
 });
 
@@ -144,7 +144,7 @@ const robsonSoares= (when = '26/07/2019 às 20h50') => ({
     name: 'Robson Soares Amorim',
     description: 'Desenvolvedor na Lambda3. Adepto a práticas ágeis, entusiasta de softwares voltados a saúde humana e animal. Organizador do @High5Devs, gosta de contribuir com a comunidade com posts, podcasts, palestras. Formado em sistemas de informação pela UNIP em 2012. Sempre em busca de novos conhecimentos e troca de experiências!',
     facebook: 'https://www.facebook.com/in/robson.soares.7106',
-    twitter: 'https://www.twitter.com/in/AmorimRob',
+    twitter: 'https://www.twitter.com/AmorimRob',
   },
 });
 
