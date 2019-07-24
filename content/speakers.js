@@ -222,9 +222,9 @@ export default [
   pokemonBr('23/07/2019 às 20h50'), // Function as a Service no OpenFaaS com Docker e PHP
   lucasAnjos('23/07/2019 às 21h30'), // O que são Filas e como trabalhar com elas em Arquitetura Serverless
 
-  angeloBelchior('24/07/2019 às 20h10'), // Real Time Application com CosmosDB, Azure SignalR e Azure Functions
-  octavioFernands('24/07/2019 às 20h50'), // Case Kovi: Resolvendo concorrência com Javascript + Lambda/SQS/S3
-  gustavoGondim1('24/07/2019 às 21h30'), // Processamento assíncrono com Azure Functions e Service Bus
+  angeloBelchior('Adiado por imprevisto'), // Real Time Application com CosmosDB, Azure SignalR e Azure Functions
+  octavioFernands('Adiado por imprevisto'), // Case Kovi: Resolvendo concorrência com Javascript + Lambda/SQS/S3
+  gustavoGondim1('Adiado por imprevisto'), // Processamento assíncrono com Azure Functions e Service Bus
 
   emmanuelBrandao('25/07/2019 às 20h10'), // DevOps em apps Serverless
   robsonSoares('25/07/2019 às 20h50'), // Escalando sua aplicação mundialmente com Cosmos DB
