@@ -2,7 +2,7 @@ export default [
   {
     name: 'Igor Halfeld',
     image: 'https://avatars3.githubusercontent.com/u/9022134?s=400&v=4',
-    description: 'Microsoft MVP, Speaker, Engineering Lead at @NOALVO, Organizer at @vuejssummit, @vuejs_brasil, @vuejssp, @jssp and @nodebr',
+    description: 'Microsoft MVP, Speaker, Software Engineer Estratégia Concursos, Organizer at @vuejssummit, @vuejs_brasil, @vuejssp, @jssp and @nodebr',
     twitter: 'igorhalfeld',
     github: 'igorhalfeld',
     linkedin: 'igorhalfeld',
