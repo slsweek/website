@@ -42,7 +42,7 @@
         <span :style="{ fontSize: '25px', fontWeight: 700 }">
           Evento online
         </span>
-        - 22 à 26 de julho.
+        - 25 à 29 de outubro.
       </StyledSubTitle>
 
     </GridContainer>

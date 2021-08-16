@@ -8,10 +8,15 @@
         }">
         Palestrantes
       </StyledTitle>
+      <StyledSubTitle :styles="{ color: 'white' }">
+        Mais informações em breve...
+      </StyledSubTitle>
+      <!--
       <SpeakerCollapse
         v-for="(speaker, index) in speakers"
         :key="`speaker${index}`"
         :speaker="speaker" />
+        -->
     </GridContainer>
   </div>
 </template>

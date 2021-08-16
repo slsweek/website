@@ -5,7 +5,7 @@
     <InfoSection />
     <OrganizersSection />
     <SpeakersSection />
-    <DonationSection />
+    <!-- <DonationSection /> -->
     <Footer />
   </GridContainer>
 </template>
@@ -16,7 +16,7 @@ import Footer from '@/components/Footer';
 import ModalCheckout from '@/components/ModalCheckout';
 import OrganizersSection from '@/components/OrganizersSection';
 import SpeakersSection from '@/components/SpeakersSection';
-import DonationSection from '@/components/DonationSection';
+// import DonationSection from '@/components/DonationSection';
 import GridContainer from '@/components/Functional/GridContainer';
 import InfoSection from '@/components/InfoSection';
 
@@ -29,7 +29,7 @@ export default {
     InfoSection,
     OrganizersSection,
     SpeakersSection,
-    DonationSection,
+    // DonationSection,
     ModalCheckout,
   },
 }
