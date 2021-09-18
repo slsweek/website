@@ -4,13 +4,13 @@
       <StyledTitle
         :styles="{
           color: 'white',
-          marginBottom: '20px',
         }">
         Palestrantes
       </StyledTitle>
-      <StyledSubTitle :styles="{ color: 'white' }">
-        Mais informações em breve...
+      <StyledSubTitle :styles="{ color: 'white', marginBottom: '20px' }">
+        Quer falar sobre algum assunto relacionado a serverless? 👇🏻
       </StyledSubTitle>
+      <StyledButton :clickFn="navigate" text="Mande sua palestra 🚀" />
       <!--
       <SpeakerCollapse
         v-for="(speaker, index) in speakers"

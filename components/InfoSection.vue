@@ -16,7 +16,6 @@
         alignY="flex-start">
         <ul class="info-list">
           <li>Os vídeos estarão disponíveis em nosso <a href="https://www.youtube.com/channel/UCrpv9cNaImDENrYz1eqnXzw">canal do YouTube</a>. Não esqueça de curtir, compartilhar e se inscrever 😍</li>
-          <li>Confirme sua presença em nosso <a href="https://www.facebook.com/events/291536171785412/">evento no Facebook!</a> Lá você também poderá acompanhar os anuncios oficiais e também interagir com os demais participantes!</li>
           <li>O evento é totalmente online, não é necessário comparecer em nenhum local para assistí-lo (que tal assistir com os amigos? 🍻)</li>
         </ul>
         <ul class="info-list">
