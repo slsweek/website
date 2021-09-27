@@ -35,7 +35,7 @@ export default {
   data: () => ({ speakers }),
   methods: {
     navigate() {
-      window.open('https://forms.gle/1KGf3MLa6rhWXkoF6', '_blank');
+      window.open('https://forms.gle/B8wLZqzvdjTMxEE29?v=1', '_blank');
     },
   },
 };
