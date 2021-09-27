@@ -23,6 +23,10 @@
           <li>Mas, assistir ao vivo te dá a possibilidade de perguntar diretamente para o palestrante (só dizendo 👀)</li>
         </ul>
       </GridContainer>
+
+      <GridContainer alignX="center" alignY="center">
+        <StyledButton :clickFn="navigate" text="Inscreva-se" />
+      </GridContainer>
     </GridContainer>
   </div>
 </template>
@@ -31,13 +35,14 @@
 import GridContainer from '@/components/Functional/GridContainer';
 import StyledTitle from '@/components/Functional/StyledTitle';
 import StyledSubTitle from '@/components/Functional/StyledSubTitle';
+import StyledButton from '@/components/Functional/StyledButton';
 
 export default {
   name: 'InfoSection',
-  components: { GridContainer, StyledTitle, StyledSubTitle },
+  components: { GridContainer, StyledTitle, StyledSubTitle, StyledButton},
   methods: {
-    navigate(link) {
-      return window.open(link, '_blank');
+    navigate() {
+      return window.open('https://www.youtube.com/channel/UCrpv9cNaImDENrYz1eqnXzw', '_blank');
     },
   },
 };
